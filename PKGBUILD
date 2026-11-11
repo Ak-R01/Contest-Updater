@@ -13,7 +13,7 @@ depends=('python'
          'python-requests')
 optdepends=('libnotify: desktop notifications on errors')
 source=("#pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('REPLACE_ME')
+sha256sums=('0ca6efb0a05496d5729d47a22f830aee73b8a50821e660fd237bbf9328d2adec')
 
 package() {
   cd "Contest-Updater-$pkgver"
