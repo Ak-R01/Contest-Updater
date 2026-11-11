@@ -1,0 +1,10 @@
+[Unit]
+Description=Run contest updater daily and at login
+
+[Timer]
+OnStartupSec=2min
+OnUnitActiveSec=1d
+Persistent=true
+
+[Install]
+WantedBy=timers.target

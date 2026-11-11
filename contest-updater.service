@@ -1,0 +1,6 @@
+[Unit]
+Description=Sync Codeforces contests to Google Calendar
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/contest-updater
