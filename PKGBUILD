@@ -1,7 +1,7 @@
 #Maintainer: Ak-R01
 pkgname=contest-updater
 pkgver=1.0.0
-pkggrel=1
+pkgrel=1
 pkgdesc='Sync upcoming Codeforces contests to Google Calendar'
 arch=('any')
 url='https://github.com/Ak-R01/Contest-Updater'
